@@ -34,6 +34,7 @@
 #include "QCameraThermalAdapter.h"
 #include "QCameraCommon.h"
 
+
 extern "C" {
 #include "mm_jpeg_interface.h"
 }
