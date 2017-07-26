@@ -49,3 +49,6 @@ on post-fs-data
     chown system system /dev/spidev6.1
     chmod 0666 /dev/spidev7.1
     chmod 0666 /dev/spidev6.1
+
+# Create folder for our hex edited mm-qcamera-daemon and camera blobs
+    mkdir /data/vendor/qcam 0770 camera camera
