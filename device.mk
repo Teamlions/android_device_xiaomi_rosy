@@ -37,7 +37,8 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.rosy.rc
+    init.rosy.rc \
+    init.goodix.sh
 
 # Properties
 -include device/xiaomi/rosy/prop.mk
