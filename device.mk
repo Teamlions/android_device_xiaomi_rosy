@@ -296,6 +296,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.target.rc \
     init.rosy.rc \
+    init.goodix.sh \
     ueventd.qcom.rc
 
 ifeq ($(TARGET_KERNEL_VERSION),4.9)
