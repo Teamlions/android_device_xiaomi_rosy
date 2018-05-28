@@ -1,3 +1,6 @@
+# Camera
+/data/vendor/qcam(/.*)?				u:object_r:vendor_camera_data_file:s0
+
 # Input files
 /(vendor|system/vendor)/usr/idc(/.*)?		u:object_r:idc_file:s0
 /(vendor|system/vendor)/usr/keylayout(/.*)?	u:object_r:keylayout_file:s0
