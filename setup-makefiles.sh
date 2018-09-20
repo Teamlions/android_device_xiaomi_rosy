@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-export DEVICE=mido
+export DEVICE=rosy
 export DEVICE_COMMON=msm8953-common
 export VENDOR=xiaomi
 

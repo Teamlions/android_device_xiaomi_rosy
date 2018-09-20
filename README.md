@@ -1,23 +1,22 @@
-# Device Tree for Xiaomi Redmi Note 4 & 4x (Mido)
+Copyright (C) 2018 - The LineageOS Project
 
-## Spec Sheet
+Device configuration for Xiaomi Redmi 5 (rosy)
+==============
 
-| Feature                 | Specification                     |
-| :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core 2.0 GHz Cortex-A53      |
-| Chipset                 | Qualcomm MSM8953 Snapdragon 625   |
-| GPU                     | Adreno 506                        |
-| Memory                  | 2/3/4 GB                          |
-| Shipped Android Version | 6.0.1                             |
-| Storage                 | 32/64 GB                          |
-| MicroSD                 | Up to 256 GB                      |
-| Battery                 | 4100 mAh (non-removable)          |
-| Dimensions              | 151 x 76 x 8.5 mm                 |
-| Display                 | 1920x1080 pixels, 5.5 (~401 PPI)  |
-| Rear Camera             | 13 MP, LED flash                  |
-| Front Camera            | 5 MP                              |
-| Release Date            | January 2017                      |
+Basic   | Spec Sheet
+-------:|:----------
+CPU     | 8x ARM Cortex A53, 1.8GHz
+Chipset | Qualcomm Snapdragon 450
+GPU     | Adreno 506, Full HD 1080p 60fps
+ROM     | 16/32GB
+RAM     | 2/3/4GB
+Android | 7.1.2
+Battery | 3300 mAh
+Display | 1440x720 pixels, 5.7
+Rear Camera  | 12MP, PDAF
+Front Camera | 5 MP
 
-## Device Picture
+## Device picture
 
-![Redmi Note 4](http://i01.appmifile.com/webfile/globalimg/7/537557F3-A4F1-2490-E9D3-138B2A11DBF6.png "Redmi Note 4")
+![Xiaomi Redmi 5](https://i1.mifile.cn/f/i/17/redmi5/index_redmi5_black.jpg? "Xiaomi Redmi 5")
+
