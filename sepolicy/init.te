@@ -1,0 +1,1 @@
+allow init fingerprint_device:chr_file { write ioctl };

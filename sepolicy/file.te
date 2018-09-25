@@ -1,0 +1,7 @@
+type idc_file, file_type, vendor_file_type;
+type keylayout_file, file_type, vendor_file_type;
+
+# fingerprint
+type fingerprint_data_file, file_type, data_file_type;
+type fingerprint_sysfs, fs_type, sysfs_type;
+type power_sysfs, fs_type, sysfs_type;
