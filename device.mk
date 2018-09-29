@@ -31,10 +31,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
 
-# Consumerir
-PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-service.xiaomi_rosy
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.rosy.rc
