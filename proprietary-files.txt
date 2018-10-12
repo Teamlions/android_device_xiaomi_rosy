@@ -1,4 +1,4 @@
-# Audio ACDB
+# Audio ACDB - from MIUI Stable - V9.2.3.0.NDAMIEK
 etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
 etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
 etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
@@ -7,7 +7,7 @@ etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
 etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
 etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
-# Camera
+# Camera - from MIUI Stable - V9.2.3.0.NDAMIEK
 bin/mm-qcamera-app:vendor/bin/mm-qcamera-app
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
 vendor/lib/libllvd_smore.so
@@ -47,7 +47,7 @@ vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 vendor/lib/libremosaic_daemon.so
 
-# Camera actuators 
+# Camera actuators - from MIUI Stable - V9.2.3.0.NDAMIEK
 vendor/lib/libactuator_ad5816g.so
 vendor/lib/libactuator_ad5823.so
 vendor/lib/libactuator_ak7345.so
@@ -70,7 +70,7 @@ vendor/lib/libactuator_ovt_ov12a10_i_dw9763.so
 vendor/lib/libactuator_pseudo.so
 vendor/lib/libactuator_rohm_bu64243gwz.so
 
-# Camera XML Configs
+# Camera XML Configs - from MIUI Stable - V9.2.3.0.NDAMIEK
 etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml
 etc/camera/csidtg_camera.xml:vendor/etc/camera/csidtg_camera.xml
 etc/camera/csidtg_chromatix.xml:vendor/etc/camera/csidtg_chromatix.xml
@@ -136,7 +136,7 @@ etc/camera/sony_imx486_ii_chromatix.xml:vendor/etc/camera/sony_imx486_ii_chromat
 etc/camera/imx230_qc2002_chromatix.xml:vendor/etc/camera/imx230_qc2002_chromatix.xml
 etc/camera/ov5695_chromatix.xml:vendor/etc/camera/ov5695_chromatix.xml
 
-# Camera chromatix
+# Camera chromatix - from MIUI Stable - V9.2.3.0.NDAMIEK
 vendor/lib/libchromatix_csidtg_common.so
 vendor/lib/libchromatix_csidtg_cpp_preview.so
 vendor/lib/libchromatix_csidtg_postproc.so
@@ -1681,7 +1681,7 @@ vendor/lib/libchromatix_sony_imx486_ii_snapshot.so
 vendor/lib/libchromatix_sony_imx486_ii_zsl_preview_dw9714v.so
 vendor/lib/libchromatix_sony_imx486_ii_zsl_video_dw9714v.so
 
-# mmcamera
+# mmcamera - from MIUI Stable - V9.2.3.0.NDAMIEK
 lib/libmmcamera_interface.so:vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
 vendor/lib/libmmcamera_cac3_lib.so
@@ -1861,7 +1861,7 @@ vendor/lib64/libmmcamera2_is.so
 vendor/lib64/libmmcamera2_q3a_core.so
 vendor/lib64/libmmcamera2_stats_algorithm.so
 
-# Camera firmware
+# Camera firmware - from MIUI Stable - V9.2.3.0.NDAMIEK
 etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw
@@ -1873,16 +1873,16 @@ etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw
 etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw
 etc/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw
 
-# Consumer IR
+# Consumer IR - from MIUI Stable - V9.2.3.0.NDAMIEK
 lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.default.so
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so
 
-# Display calibration
+# Display calibration - from MIUI Stable - V9.2.3.0.NDAMIEK
 -etc/qdcm_calib_data_ft8006m_boe_5p7_720p_video.xml:vendor/etc/qdcm_calib_data_ft8006m_boe_5p7_720p_video.xml
 -etc/qdcm_calib_data_ft8613_csot_5p7_720p_video.xml:vendor/etc/qdcm_calib_data_ft8613_csot_5p7_720p_video.xml
 -etc/qdcm_calib_data_ft8613_ebbg_5p7_720p_video.xml:vendor/etc/qdcm_calib_data_ft8613_ebbg_5p7_720p_video.xml
 
-# Graphics firmware
+# Graphics firmware - from MIUI Stable - V9.2.3.0.NDAMIEK
 etc/firmware/a225p5_pm4.fw:vendor/firmware/a225p5_pm4.fw
 etc/firmware/a225_pfp.fw:vendor/firmware/a225_pfp.fw
 etc/firmware/a225_pm4.fw:vendor/firmware/a225_pm4.fw
@@ -1907,13 +1907,19 @@ etc/firmware/a530v3_gpmu.fw2:vendor/firmware/a530v3_gpmu.fw2
 etc/firmware/a530v3_seq.fw2:vendor/firmware/a530v3_seq.fw2
 etc/firmware/a540_gpmu.fw2:vendor/firmware/a540_gpmu.fw2
 
-# USB
+# USB - from MIUI Stable - V9.2.3.0.NDAMIEK
 etc/firmware/ice40.bin:vendor/firmware/ice40.bin
 
-# fingerprint
+# fingerprint (fpc) - from MIUI Stable - V9.2.3.0.NDAMIEK
 lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so
+
+# fingerprint (goodix) - from MIUI Stable - V9.2.3.0.NDAMIEK
+lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
+
+# fingerprint (goodix) - - from vince
 lib64/hw/gf_fingerprint.default.so:vendor/lib64/hw/fingerprint.goodix.so
 lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.so
-lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
 lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
-
+lib64/libgf_algo.so:vendor/lib64/libgf_algo.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
