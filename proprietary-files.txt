@@ -1873,8 +1873,7 @@ etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw
 etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw
 etc/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw
 
-# Consumer IR - from MIUI Stable - V9.2.3.0.NDAMIEK
-lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.default.so
+# Consumer IR - from Vince
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so
 
 # Display calibration - from MIUI Stable - V9.2.3.0.NDAMIEK
