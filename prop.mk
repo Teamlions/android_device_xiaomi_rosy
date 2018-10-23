@@ -12,3 +12,7 @@ ro.config.vc_call_vol_steps=7
 # value = 0 means disabled
 PRODUCT_PROPERTY_OVERRIDES += \
 dt2w.enabled=1
+#exif info for camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.exif.make=Xiaomi \
+    persist.sys.exif.model=Redmi 5

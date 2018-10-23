@@ -17,6 +17,15 @@
 $(call inherit-product, vendor/xiaomi/rosy/rosy-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
+# Specify a "dev-keys" configuration.  Keys from
+# vendor/oss/release-keys will be used instead of the keys under
+# build/make/target/product/security, with the exception of the verity
+# key.  For verity, the build system will still use
+# build/make/target/product/security/verity.pk8, but this can be
+# changed using a post-build re-signing operation (or by making a
+# change inside the build project).
+PRODUCT_DEFAULT_DEV_CERTIFICATE :=  $(LOCAL_PATH)/certs/releasekey
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
