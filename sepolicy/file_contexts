@@ -9,6 +9,7 @@
 /(vendor|system/vendor)/usr/keylayout(/.*)?	u:object_r:keylayout_file:s0
 
 # Ir
+/dev/spidev6.1                                  u:object_r:spidev_device:s0                                
 /dev/spidev7.1                                  u:object_r:spidev_device:s0
 
 # Fingerprint HIDL
