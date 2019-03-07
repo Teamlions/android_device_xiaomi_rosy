@@ -1,6 +1,3 @@
-# Block devices
-/dev/block/mmcblk0p26				u:object_r:persist_block_device:s0
-
 # Input files
 /(vendor|system/vendor)/usr/idc(/.*)?		u:object_r:idc_file:s0
 /(vendor|system/vendor)/usr/keylayout(/.*)?	u:object_r:keylayout_file:s0
