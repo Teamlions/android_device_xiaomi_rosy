@@ -1025,7 +1025,7 @@
     <path name="incall_music_uplink">
        <ctl name="Incall_Music Audio Mixer MultiMedia2" value="1" />
     </path>
-	
+
     <path name="incall_music_uplink speaker">
         <path name="incall_music_uplink" />
     </path>
@@ -1033,11 +1033,11 @@
     <path name="incall_music_uplink speaker-protected">
         <path name="incall_music_uplink" />
     </path>
-	
+
     <path name="incall_music_uplink handset">
         <path name="incall_music_uplink" />
     </path>
-	
+
     <path name="incall_music_uplink bt-sco">
         <path name="incall_music_uplink" />
     </path>
@@ -1045,11 +1045,11 @@
     <path name="incall_music_uplink bt-sco-wb">
         <path name="incall_music_uplink" />
     </path>
-	
+
     <path name="incall_music_uplink speaker-and-bt-sco">
         <path name="incall_music_uplink" />
     </path>
-	
+
     <path name="incall_music_uplink speaker-and-bt-sco-wb">
         <path name="incall_music_uplink" />
     </path>
@@ -1061,7 +1061,7 @@
     <path name="incall_music_uplink usb-headphones">
         <path name="incall_music_uplink" />
     </path>
-	
+
     <path name="incall_music_uplink usb-headset">
         <path name="incall_music_uplink" />
     </path>
@@ -1077,7 +1077,7 @@
     <path name="incall_music_uplink speaker-and-headphones">
         <path name="incall_music_uplink" />
     </path>
-	
+
     <path name="incall_music_uplink2">
         <ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="1" />
     </path>
