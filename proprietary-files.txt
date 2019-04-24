@@ -1,4 +1,4 @@
-# Audio ACDB - from MIUI BETA - 9.4.11 OPM1.171019.026
+# Audio ACDBDATA - from MIUI Stable - V10.1.3.0.ODAMIFI
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
