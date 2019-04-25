@@ -1936,7 +1936,7 @@ lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so
 # fingerprint (goodix) - from MIUI Stable - V9.2.3.0.NDAMIEK
 lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
 
-# fingerprint (goodix) - - from vince
+# fingerprint (goodix) - - from Realme 2
 lib64/hw/gf_fingerprint.default.so:vendor/lib64/hw/fingerprint.goodix.so
 lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.so
 lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
