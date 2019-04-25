@@ -1,4 +1,4 @@
-Copyright (C) 2018 - The LineageOS Project
+Copyright (C) 2019 - The LineageOS Project
 
 Device configuration for Xiaomi Redmi 5 (rosy)
 ==============
