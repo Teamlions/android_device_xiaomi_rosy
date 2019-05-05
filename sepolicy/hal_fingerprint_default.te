@@ -31,7 +31,6 @@ allow hal_fingerprint_default mnt_user_file:dir { search };
 allow hal_fingerprint_default mnt_user_file:lnk_file { read };
 allow hal_fingerprint_default sdcardfs:dir { search };
 allow hal_fingerprint_default media_rw_data_file:dir { search read open };
-allow hal_fingerprint_default system_data_file:file { read write open getattr };
 
 set_prop(hal_fingerprint_default, fingerprint_prop)
 
