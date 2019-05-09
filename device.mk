@@ -26,11 +26,11 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1440
+TARGET_SCREEN_WIDTH := 720
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -359,6 +359,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/sbl1.mbn:install/firmware-update/sbl1.mbn \
     $(LOCAL_PATH)/firmware/tz.mbn:install/firmware-update/tz.mbn \
     $(LOCAL_PATH)/firmware/splash.img:install/firmware-update/splash.img
+
+# Properties
+-include device/xiaomi/rosy/prop.mk
 
 # Sensors
 PRODUCT_PACKAGES += \
