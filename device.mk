@@ -24,6 +24,14 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 # Inherit from msm8953-common
 $(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
 
+# Screen density
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 # Audio configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
@@ -68,6 +76,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/sbl1.mbn:install/firmware-update/sbl1.mbn \
     $(LOCAL_PATH)/firmware/tz.mbn:install/firmware-update/tz.mbn \
     $(LOCAL_PATH)/firmware/splash.img:install/firmware-update/splash.img
+
+# Properties
+-include device/xiaomi/rosy/prop.mk
 
 # Sensors
 PRODUCT_COPY_FILES += \
