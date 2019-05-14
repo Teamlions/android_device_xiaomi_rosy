@@ -1,1 +1,2 @@
 allow init gx_fpd_device:chr_file setattr;
+allow init self:netlink_socket { read };
