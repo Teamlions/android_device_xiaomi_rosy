@@ -22,10 +22,12 @@ vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Audio Dirac -from tissot
-vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
-vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
-vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+# Audio Dirac -from rolex
+vendor/lib/soundfx/libdirac.so
+vendor/lib/libDiracAPI_SHARED.so
+vendor/etc/diracmobile.config
+vendor/lib/libhwdaphal.so
+vendor/lib64/libhwdaphal.so
 
 # Camera - from MIUI Stable - V9.2.3.0.NDAMIEK
 bin/mm-qcamera-app:vendor/bin/mm-qcamera-app
