@@ -69,6 +69,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/tz.mbn:install/firmware-update/tz.mbn \
     $(LOCAL_PATH)/firmware/splash.img:install/firmware-update/splash.img
 
+# Properties
+-include device/xiaomi/rosy/prop.mk
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
