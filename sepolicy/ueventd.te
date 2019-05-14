@@ -1,0 +1,3 @@
+typeattribute ueventd data_between_core_and_vendor_violators;
+
+allow ueventd fpc_sysfs:file rw_file_perms;
