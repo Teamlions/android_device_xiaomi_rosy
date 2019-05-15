@@ -8041,6 +8041,11 @@ int32_t QCameraParameters::setCDSMode(const QCameraParameters& params)
     const char *video_str = params.get(KEY_QC_VIDEO_CDS_MODE);
     const char *video_prev_str = get(KEY_QC_VIDEO_CDS_MODE);
     int32_t rc = NO_ERROR;
+	
+#ifdef DISABLE_CDS_MODE
+    LOGH("CDS is not supported");
+    return rc;
+#endif
 
 #if 0
     if (m_bRecordingHint_new == true) {
@@ -14645,6 +14650,11 @@ uint8_t QCameraParameters::getLongshotStages()
  *==========================================================================*/
 int32_t QCameraParameters::setCDSMode(int32_t cds_mode, bool initCommit)
 {
+#ifdef DISABLE_CDS_MODE
+    LOGH("CDS is not supported");
+    return NO_ERROR;
+#endif
+
     if (initCommit) {
         if (initBatchUpdate(m_pParamBuf) < 0) {
             LOGE("Failed to initialize group update table");

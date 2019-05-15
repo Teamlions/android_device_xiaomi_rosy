@@ -10337,6 +10337,7 @@ int QCamera3HardwareInterface::translateToHalMetadata
         }
     }
 
+#ifndef DISABLE_CDS_MODE
     // CDS for non-HFR non-video mode
     if ((mOpMode != CAMERA3_STREAM_CONFIGURATION_CONSTRAINED_HIGH_SPEED_MODE) &&
             !(m_bIsVideo) && frame_settings.exists(QCAMERA3_CDS_MODE)) {
@@ -10365,6 +10366,7 @@ int QCamera3HardwareInterface::translateToHalMetadata
             rc = BAD_VALUE;
         }
     }
+#endif
 
     if (frame_settings.exists(QCAMERA3_EXPOSURE_METER)) {
         int32_t* exposure_metering_mode =
