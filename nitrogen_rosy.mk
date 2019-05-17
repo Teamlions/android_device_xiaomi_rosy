@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2019 The NitrogenOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,13 +14,22 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/xiaomi/rosy/full_rosy.mk)
+# Inherit some common Nitrooen-OS stuff.
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := lineage_rosy
+# Inherit from rosy device
+$(call inherit-product, device/xiaomi/rosy/device.mk)
+
+PRODUCT_NAME := nitrogen_rosy
 BOARD_VENDOR := Xiaomi
+PRODUCT_DEVICE := rosy
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Redmi 5
+PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
