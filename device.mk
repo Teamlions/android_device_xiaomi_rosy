@@ -348,8 +348,8 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/rosy
 # Ship Miui Firmware
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/adspso.bin:install/firmware-update/adspso.bin \
-    $(LOCAL_PATH)/firmware/cmnlib64.mbn:install/firmware-update/cmnlib64.mbn \
-    $(LOCAL_PATH)/firmware/cmnlib.mbn:install/firmware-update/cmnlib.mbn \
+    $(LOCAL_PATH)/firmware/cmnlib64_30.mbn:install/firmware-update/cmnlib64_30.mbn \
+    $(LOCAL_PATH)/firmware/cmnlib_30.mbn:install/firmware-update/cmnlib_30.mbn \
     $(LOCAL_PATH)/firmware/devcfg.mbn:install/firmware-update/devcfg.mbn \
     $(LOCAL_PATH)/firmware/emmc_appsboot.mbn:install/firmware-update/emmc_appsboot.mbn \
     $(LOCAL_PATH)/firmware/keymaster.mbn:install/firmware-update/keymaster.mbn \
@@ -357,8 +357,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/NON-HLOS.bin:install/firmware-update/NON-HLOS.bin \
     $(LOCAL_PATH)/firmware/rpm.mbn:install/firmware-update/rpm.mbn \
     $(LOCAL_PATH)/firmware/sbl1.mbn:install/firmware-update/sbl1.mbn \
-    $(LOCAL_PATH)/firmware/tz.mbn:install/firmware-update/tz.mbn \
-    $(LOCAL_PATH)/firmware/splash.img:install/firmware-update/splash.img
+    $(LOCAL_PATH)/firmware/tz.mbn:install/firmware-update/tz.mbn
 
 # Properties
 -include device/xiaomi/rosy/prop.mk
