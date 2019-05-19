@@ -22,9 +22,9 @@ def FullOTA_InstallEnd(info):
   ImportBkpBootloaderFirmware(info)
 
 def ImportMainBootloaderFirmware(info):
-  info.script.AppendExtra('ui_print("Flashing miui_HM5Global_V10.1.2.0.NDAMIFI_6afa536b21_7.1 Firmware.");')
-  info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib64.mbn", "/dev/block/bootdevice/by-name/cmnlib64");')
-  info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib.mbn", "/dev/block/bootdevice/by-name/cmnlib");')
+  info.script.AppendExtra('ui_print("Flashing miui_HM5Global_9.5.14_95a09b7f85_8.1 Firmware.");')
+  info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib64_30.mbn", "/dev/block/bootdevice/by-name/cmnlib64");')
+  info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib_30.mbn", "/dev/block/bootdevice/by-name/cmnlib");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/rpm.mbn", "/dev/block/bootdevice/by-name/rpm");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/tz.mbn", "/dev/block/bootdevice/by-name/tz");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/emmc_appsboot.mbn", "/dev/block/bootdevice/by-name/aboot");')
@@ -34,12 +34,11 @@ def ImportMainBootloaderFirmware(info):
   info.script.AppendExtra('package_extract_file("install/firmware-update/keymaster.mbn", "/dev/block/bootdevice/by-name/keymaster");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/NON-HLOS.bin", "/dev/block/bootdevice/by-name/modem");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/adspso.bin", "/dev/block/bootdevice/by-name/dsp");')
-  info.script.AppendExtra('package_extract_file("install/firmware-update/splash.img", "/dev/block/bootdevice/by-name/splash");')
 
 def ImportBkpBootloaderFirmware(info):
-  info.script.AppendExtra('ui_print("Flashing Backup miui_HM5Global_V10.1.2.0.NDAMIFI_6afa536b21_7.1 Firmware.");')
-  info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib64.mbn", "/dev/block/bootdevice/by-name/cmnlib64bak");')
-  info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib.mbn", "/dev/block/bootdevice/by-name/cmnlibbak");')
+  info.script.AppendExtra('ui_print("Flashing miui_HM5Global_9.5.14_95a09b7f85_8.1 Firmware.");')
+  info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib64_30.mbn", "/dev/block/bootdevice/by-name/cmnlib64bak");')
+  info.script.AppendExtra('package_extract_file("install/firmware-update/cmnlib_30.mbn", "/dev/block/bootdevice/by-name/cmnlibbak");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/rpm.mbn", "/dev/block/bootdevice/by-name/rpmbak");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/tz.mbn", "/dev/block/bootdevice/by-name/tzbak");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/emmc_appsboot.mbn", "/dev/block/bootdevice/by-name/abootbak");')
