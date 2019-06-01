@@ -22,6 +22,7 @@ persist.vendor.audio.fluence.voicerec=true \
 ro.vendor.audio.sdk.fluencetype=fluence \
 persist.dirac.acs.controller=qem \
 persist.dirac.acs.storeSettings=1 \
+ro.audio.soundfx.dirac=true \
 persist.vendor.btstack.enable.splita2dp=false \
 ro.vendor.audio.sdk.ssr=false \
 vendor.audio.flac.sw.decoder.24bit=true \
