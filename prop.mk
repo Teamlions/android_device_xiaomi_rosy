@@ -5,7 +5,10 @@ persist.vendor.audio.fluence.voicecall=true \
 persist.vendor.audio.fluence.voicerec=true \
 ro.vendor.audio.sdk.fluencetype=fluence \
 persist.dirac.acs.controller=qem \
-persist.dirac.acs.storeSettings=1
+persist.dirac.acs.storeSettings=1 \
+vendor.audio.use.dts_eagle=true \
+use.dts_eagle=true \
+hpx_send_params=1
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
