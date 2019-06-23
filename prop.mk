@@ -13,4 +13,5 @@ hpx_send_params=1
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.sf.lcd_density=320
+ro.sf.lcd_density=320 \
+debug.hwui.profile=true
