@@ -21,6 +21,9 @@
 /dev/spidev6.1                                  u:object_r:spidev_device:s0
 /dev/spidev7.1                                  u:object_r:spidev_device:s0
 
+# Led
+/sys/devices/soc/soc:gpio-leds/leds/infrared/transmit     u:object_r:sysfs_leds:s0
+
 # Fingerprint HIDL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_rosy     u:object_r:hal_fingerprint_default_exec:s0
 
