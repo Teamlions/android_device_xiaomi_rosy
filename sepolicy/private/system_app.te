@@ -1,0 +1,2 @@
+# For android setttings
+binder_call(system_app, storaged)
