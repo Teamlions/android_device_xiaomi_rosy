@@ -6,10 +6,7 @@ persist.vendor.audio.fluence.voicerec=true \
 ro.vendor.audio.sdk.fluencetype=fluence \
 persist.dirac.acs.controller=qem \
 persist.dirac.acs.storeSettings=1 \
-ro.audio.soundfx.dirac=true \
-vendor.audio.use.dts_eagle=false \
-use.dts_eagle=false \
-hpx_send_params=1
+ro.audio.soundfx.dirac=true
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
