@@ -12,3 +12,4 @@ ro.audio.soundfx.dirac=true
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.sf.lcd_density=320 \
 debug.cpurend.vsync=false \
+debug.sf.disable_backpressure=1
