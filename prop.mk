@@ -10,5 +10,4 @@ ro.audio.soundfx.dirac=true
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.sf.lcd_density=320 \
-debug.hwui.profile=true
+ro.sf.lcd_density=320
