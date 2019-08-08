@@ -53,3 +53,6 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/rosy/BoardConfigVendor.mk
+
+# Camera
+TARGET_FACE_UNLOCK_CAMERA_ID := 5
