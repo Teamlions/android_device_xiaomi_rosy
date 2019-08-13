@@ -21,9 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
-# Inherit some common AOSP stuff.
+# Inherit some common AtomOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+ATOM_BUILD_TYPE := OFFICIAL
+IS_PHONE := true
 $(call inherit-product, vendor/atom/config/common.mk)
 
 # Device identifier. This must come after all inclusions
