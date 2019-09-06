@@ -18,7 +18,7 @@
 
 #include <dlfcn.h>
 
-#include <cutils/log.h>
+#include <log/log.h>
 
 #include <utils/threads.h>
 
