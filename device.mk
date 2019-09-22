@@ -74,6 +74,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/sbl1.mbn:install/firmware-update/sbl1.mbn \
     $(LOCAL_PATH)/firmware/tz.mbn:install/firmware-update/tz.mbn
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Properties
 -include device/xiaomi/rosy/prop.mk
 
